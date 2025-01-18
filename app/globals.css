@@ -1,0 +1,11 @@
+.custom-scroll-container {
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+  flex-direction: row;
+  position: relative; /* Ensure relative positioning for arrow alignment */
+}
+
+.scroll-item {
+  flex: none;
+}
